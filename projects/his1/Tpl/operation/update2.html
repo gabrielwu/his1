@@ -1,0 +1,199 @@
+﻿{$css}
+<div id="right">
+    <div class="title">
+            <a href="{$url}/index">手术查询</a> — 
+<if condition="$operate eq '新建'"> 
+            <a href="{$url}/addInput/patient_id/{$patient_id_add}">新建</a> — 
+            <a href="{$url}/addInput2/patient_id/{$patient_id_add}">具体信息</a>
+<else/>
+</if>
+    </div>
+    <div class="content">
+        <div id="tab4" class="tab">
+            <table class="tb_area">
+                <tr>
+                    <td><span>患者:</td>
+                    <td>{$patient.name}</td>
+                    <td><span>病历号:</td>
+                    <td>{$patient.medical_id}</td>
+                </tr>
+                <tr>
+                    <td><span>开始时间:</span></td>
+                    <td>{$operation.begin_time}</td>
+                    <td><span>结束时间:</span></td>
+                    <td>{$operation.end_time}</td>
+                    <td><span>手术种类:</span></td>
+                    <td>{$operation.operation_type_name}</td>
+                </tr>
+                <tr>
+                    <td><span>主刀医生:</span></td>
+                    <td>{$operation.operator_name}</td>
+                    <td><span>助手1:</span></td>
+                    <td>{$operation.assistant1_name}</td>
+                    <td><span>助手2:</span></td>
+                    <td>{$operation.assistant2_name}</td>
+                </tr>
+            </table>
+
+            <p id="operation_type_fields_{$operationType.id}">
+                <volist name="operationType.field" id="data3">
+<if condition="sizeof($data3['sons']) eq '0'"> 
+                    <table class="tb1 tb2 tb80 tb_nosons" id="tb_{$data3.id}" title="{$data3.id}">
+                        <tr class="tr_name">
+                            <td class="td_name" title="{$data3.id}">{$data3.name}</td>
+    <if condition="$data3['multiple'] eq '1'"> 
+                            <td>操作 <a class="aAdd" >添加</a></td>
+    </if>
+                        </tr>
+                        <tr class="tr_input">
+                            <td class="td_input">
+    <if condition="$data3['type'] eq '1'"> 
+                                <input class="inputEdit inputEdit2" placeholder="{$data3.format}" id="" value="" />
+    <elseif condition="$data3['type'] eq '2'" /> 
+                                <select class="inputEdit inputEdit2"  id="" >
+                                    <volist name="data3.value_options" id="data4">
+                                        <option value="{$data4}">{$data4}</option>
+                                    </volist>
+                                </select>
+    <elseif condition="$data3['type'] eq '3'" /> 
+                                <volist name="data3.value_options" id="data4">
+                                    <label>
+                                        <input class="inputEdit2 checkbox" type="checkbox" value="{$data4}" />{$data4}&nbsp;&nbsp;
+                                    </label>
+                                </volist>
+    </if>
+                            </td>
+    <if condition="$data3['multiple'] eq '1'"> 
+                            <td><a class="aRemove">删除</a></td>
+    </if>
+                        </tr>
+                    </table>
+                </br>
+<else />   
+                    <table class="tb1 tb2 tb80 tb_sons" title="{$data3.id}" >
+                        <tr class="tr_name">
+                            <td>{$data3.name}</td>
+                            <volist name="data3.sons" id="data4">
+                                <td class="td_name" title="{$data4.id}">{$data4.name}</td>
+                            </volist>
+    <if condition="$data3['multiple'] eq '1'"> 
+                            <td>操作 <a class="aAdd" >添加</a></td>
+    </if>
+                        </tr>
+                        <tr class="tr_input">
+                            <td></td>
+                            <volist name="data3.sons" id="data4">
+                                <td class="td_input">
+    <if condition="$data4['type'] eq '1'"> 
+                        <input class="inputEdit inputEdit2" placeholder="{$data4.format}" id="" value="" />
+    <elseif condition="$data4['type'] eq '2'" /> 
+                        <select class="inputEdit inputEdit2"  id="" >
+                            <volist name="data4.value_options" id="data5">
+                                <option value="{$data5}">{$data5}</option>
+                            </volist>
+                        </select>
+    <elseif condition="$data4['type'] eq '3'" />
+                        <volist name="data4.value_options" id="data5">
+                            <label>
+                                <input class="inputEdit2 checkbox" type="checkbox" name="" value="{$data5}" />{$data5}&nbsp;&nbsp;
+                            </label>
+                        </volist>
+    </if>
+                                </td>
+                            </volist>
+    <if condition="$data3['multiple'] eq '1'"> 
+                            <td><a class="aRemove">删除</a></td>
+    </if>
+                    </table>
+                </br>
+</if>   
+                </volist>
+                </p> 
+            <div class="edit">
+                <input id="btn_submit" type="button" class="btn" value="保 存"  /><span id="tip0" class="tip"></span>
+            </div>
+        </div>
+    </div>
+</div>
+{$js}
+<script type="text/javascript">
+$(function(){
+    $(".tb80 tr td").each(function () {
+        $(this).css("text-align", "center");
+    }); 
+    $("table tr td").has("span").each(function () {
+        $(this).addClass("right");
+    }); 
+
+    aRemoveInit();
+    $(".inputDate").addClass("datepicker");
+    datepickerInit();
+
+    $(".aAdd").click(function (){
+        var trTmp = $(this).closest("table").find("tr:nth-child(2)").clone();
+        $(this).closest("table").append(trTmp);
+        aRemoveInit();
+        $(".inputDate").addClass("datepicker");
+        datepickerInit();  
+    });
+    $("#btn_submit").click(function (){
+        submit();
+    })
+});
+
+function operation_detail() {
+    var str;
+}
+function aRemoveInit() {
+    $(".aRemove").click(function (){
+        if ($(this).closest("table").find("tr").length > 2) {
+            $(this).parent().parent().remove();
+        }
+    });
+}
+function submit() {
+    var canSubmit = true;
+    $(".inputEdit2").each(function () {
+        if ($(this).val() == "") {
+            $(this).focus();
+            canSubmit = false;
+            $("#tip0").text("请填写！");
+        }
+    });
+    var data = new operation_detail();
+    data.str = "";
+    $(".tb80").each(function () {
+        var id = $(this).attr("title") + ";";
+        $(this).find(".td_name").attr("title");
+        var field = "";
+        var value = "";
+
+        $(this).find(".td_name").each(function () {
+            field += $(this).attr("title") + ",";
+        });
+        field = field.substring(0, field.length - 1) + ";";
+
+        $(this).find(".tr_input").each(function () {
+            $(this).find(".td_input").each(function () {
+                var flag = $(this).find(".inputEdit2").hasClass("checkbox");
+                $(this).find(".inputEdit2").each(function(){
+                    if (flag) {
+                        if (true == $(this).prop("checked")) {
+                            value += $(this).val() + ",";
+                        }
+                    } else {
+                        value += $(this).val() + ",";
+                    }
+                });
+            });
+            data.str += id + field + value.substring(0, value.length - 1) + "|";
+        });
+    });
+    data.str = data.str.substring(0, data.str.length - 1);
+alert(data.str);
+    if (canSubmit) {
+        operate(data, "{$operate_url}", "{$redirect_url}");
+    }
+    
+}
+</script>

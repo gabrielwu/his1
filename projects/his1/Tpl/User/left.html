@@ -1,0 +1,70 @@
+{$css}
+<div id="left">
+<if condition="$adminType lt '0'">
+    <div>
+	    <h3>患者信息</h3>
+	    <p class="">
+<if condition="$userType neq 'p'">
+	        <a href="{$root}/patient/index"   target="main">病历查询</a>
+			<a href="{$root}/patient/addInput"     target="main">病历新建</a>
+	        <a href="{$root}/operation/index" target="main">手术查询</a>
+</if>
+	        <a href="{$root}/followUp/index" target="main">回访查询</a>
+<if condition="$userType eq 'p'">
+			<a href="{$root}/followUp/addInput"   target="main">回访新建</a>
+</if>
+	    </p>
+    </div>
+</if>
+<if condition="($userType eq 'd') OR ($adminType gt '0')">
+    <div>
+    	<h3>医生信息</h3>
+	    <p class="">
+<if condition="$adminType gt '0'">
+	    	<a href="{$root}/doctor/index" target="main">医生列表</a>
+</if>
+<if condition="$userType eq 'd'">
+	    	<a href="{$root}/doctor/view" target="main">个人信息</a>
+</if>
+	    </p>
+    </div>
+</if>
+<if condition="$adminType egt '0'">
+    <div>
+	    <h3>数据字典</h3>
+	    <p class="">
+<if condition="$adminType eq '0'">
+	        <a href="{$root}/title/index" target="main">职称</a>
+	        <a href="{$root}/inpatientArea/index" target="main">病区</a>
+	        <a href="{$root}/department/index"    target="main">科室</a>
+			<a href="{$root}/medicineUnit/index"      target="main">药物剂量单位</a>
+			<a href="{$root}/medicineFrequency/index" target="main">药物服用频度</a>
+			<a href="{$root}/medicineUsage/index"     target="main">给药方式</a>
+			<a href="{$root}/followUpAttachmentType/index"     target="main">回访附件类型</a>
+</if>
+<if condition="$adminType gt '0'">
+			<a href="{$root}/diagnosis/index"      target="main">诊断</a>
+			<a href="{$root}/medicine/index"       target="main">药物</a>
+			<a href="{$root}/operationType/index"  target="main">手术类型</a>
+			<a href="{$root}/operationField/index" target="main">手术字段</a>
+</if>		
+	    </p>
+    </div>
+</if>
+    <div>
+	    <h3>帐号管理</h3>
+	    <p class="">
+	        <a href="{$url}/changePassword" target="main">修改密码</a>
+<if condition="$adminType eq '0'">
+			<a href="{$root}/Admin/index"   target="main">管理员</a>
+</if>
+	    </p>
+    </div>
+</if>
+</div>
+{$js}
+<script type="text/javascript" language="javascript">
+function editConfirmView(){
+	window.showModalDialog('{$root}/Student/editConfirmView', window, 'dialogWidth:900px;dialogHeight:600px');      
+}
+</script>

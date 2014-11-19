@@ -1,0 +1,46 @@
+{$css}
+<div id="right">
+    <div class="title">
+    	<span>数据字典</span> — <span><a href="{$root}/operationType/index">手术类型</a></span> — <span>{$operation_type.name} 字段</span>
+    </div>
+	<div class="content">
+		<table class="tb_invisible">
+			<tr>
+				<volist name="list" id="data2">
+    	    		<td>
+    	    			<input id="ck_{$data2.operation_field_id}" name="operation_field_id" type="checkbox" value="{$data2.operation_field_id}" title="{$data2.id}" />
+    	    			<label for="ck_{$data2.operation_field_id}">{$data2.name}</label>
+    	    		</td>
+    	    	</volist>
+			</tr>
+		</table>
+    	<div class="edit ">
+            <input id="btn_submit" type="button" class="btn" value="提 交"  />
+			<span id="tip"></span>
+        </div>
+	</div>
+</div>
+{$js}
+<script type="text/javascript">
+$(function () {
+	$("input[name='operation_field_id']").each(function (){
+		if ($(this).attr("title") != "") {
+			$(this).attr("checked", "checked");
+		}
+	});
+	$("#btn_submit").click(function () {
+		var data = new model();
+		var str = "";
+		$("input:checkbox[name='operation_field_id']").each(function (){
+			if (true == $(this).prop("checked")) {
+				str += $(this).val() + ",";
+			}
+		});
+		data.operation_field_id_str = str.substr(0, str.length - 1);
+		operate(data, "{$url}/edit", true);
+	})
+});
+function model() {
+    var operation_field_id_str;
+}
+</script>

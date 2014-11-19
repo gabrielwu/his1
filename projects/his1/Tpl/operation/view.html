@@ -1,0 +1,84 @@
+﻿{$css}
+<div id="right">
+    <div class="title">
+            <a>手术信息</a> — 
+            <a href="{$url}/index">查询</a>
+    </div>
+    <div class="content">
+        <div id="tab4" class="tab">
+            <table class="tb_area ">
+                <tr>
+                    <td><span>患者：</span></td>
+                    <td>{$patient.name}</td>
+                    <td><span>病历号：</span></td>
+                    <td>{$patient.medical_id}</td>
+                </tr>
+                <tr>
+                    <td><span>开始时间：</span></td>
+                    <td>{$data.begin_time}</td>
+                    <td><span>结束时间：</span></td>
+                    <td>{$data.end_time}</td>
+                    <td><span>手术种类：</span></td>
+                    <td>{$data.operation_type_name}</td>
+                </tr>
+                <tr>
+                    <td><span>主刀医生：</span></td>
+                    <td>{$data.operator_name}</td>
+                    <td><span>助手1：</span></td>
+                    <td>{$data.assistant1_name}</td>
+                    <td><span>助手2：</span></td>
+                    <td>{$data.assistant2_name}</td>
+                </tr>
+            </table>
+            <volist name="details" id="data1">
+                <table class="tb1 tb2 tb80">
+                    <thead>
+                        <tr class="">
+                            <th colspan="80" width="">{$data1.father_field.name}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <volist name="data1.field_names" id="data2">
+                                <td>{$data2.name}</td>
+                            </volist>
+                        </tr>
+                        <volist name="data1.field_values" id="data3">
+                            <tr>
+        <if condition="$data1['father_field']['type'] eq '3'"> 
+                                <td>
+                                    <volist name="data3" id="data4">{$data4}, </volist>
+                                </td>
+        <else /> 
+                                <volist name="data3" id="data4">
+                                    <td>{$data4}</td>
+                                </volist>
+        </if>
+                            </tr>
+                        </volist>
+                    </tbody>
+                </table>
+                <br>
+            </volist>
+            <div class="edit">
+                <input type="button" id="btn_submit" class="btn" value="返回查询" />
+                <span id="tip0" class="tip"></span>
+            </div>
+        </div>
+    </div>
+</div>
+{$js}
+<script type="text/javascript">
+$(function(){
+    $("table tr td").has("span").each(function () {
+        $(this).addClass("right");
+    }); 
+    $("table tr td").each(function () {
+        $(this).css("padding-left", "20px");
+    }); 
+    $("#btn_submit").click(function (){
+        window.location.href = "{$url}/index";
+    })
+});
+
+</script>

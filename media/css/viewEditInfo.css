@@ -1,0 +1,9 @@
+table.form tbody th {background:#FFFFFF;}
+body{ margin: 0 auto; width:800px; overflow:auto; }
+label.label2 { color:#f00; }
+.title{ font-weight:600; font:16px; height:90px; text-align:center; color:white }
+#title #tip{ font-weight:600; font:16px color:#f00; }
+table { margin: 0 auto; border-collapse:collsapse }
+tbody td, tbody th{ margin: 0 auto; border: 1px solid #aaa; }
+thead th, thead th td{height:100px; border: none; }
+table td { width: 40%; }

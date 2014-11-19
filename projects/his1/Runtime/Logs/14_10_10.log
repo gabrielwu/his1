@@ -1,0 +1,538 @@
+[ 2014-10-10T08:27:33+08:00 ] 0.0.0.0 /his1/index.php/user/login/d
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: userType /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/projects/his1/Runtime/Cache/1ea81dadae8bcf90cf57ccf32a47b66d.php 第 20 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003264s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000526s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000255s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000134s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001241s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2014-10-10T08:27:37+08:00 ] 0.0.0.0 /his1/index.php/user/loginCheck
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000274s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: userType /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.004009s ]
+SQL: SELECT `id` FROM `doctor` WHERE ( job_id='123' ) LIMIT 1   [ RunTime:0.001014s ]
+SQL: SELECT `password` FROM `doctor` WHERE ( job_id='123' ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT `name` FROM `doctor` WHERE ( job_id='123' ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SELECT `department_id` FROM `doctor` WHERE ( job_id='123' ) LIMIT 1   [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.001552s ]
+SQL: SELECT `inpatient_area_id` FROM `department` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `inpatient_area` [ RunTime:0.001334s ]
+SQL: SELECT * FROM `inpatient_area` WHERE ( id='1' )  [ RunTime:0.000230s ]
+
+[ 2014-10-10T08:27:37+08:00 ] 0.0.0.0 /his1/index.php/user/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000283s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002989s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000130s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000137s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000080s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000219s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000240s ]
+
+[ 2014-10-10T08:27:37+08:00 ] 0.0.0.0 /his1/index.php/user/top
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.000965s ]
+SQL: SELECT `name` FROM `department` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.000252s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: level /Applications/XAMPP/xamppfiles/projects/his1/Runtime/Cache/701061b74b4c9d06c4d899cdbc4de61d.php 第 6 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006822s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000145s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000139s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000082s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000239s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2014-10-10T08:27:37+08:00 ] 0.0.0.0 /his1/index.php/user/left
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005216s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000143s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000142s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000136s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000231s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2014-10-10T08:27:37+08:00 ] 0.0.0.0 /his1/index.php/user/right
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000543s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+
+[ 2014-10-10T08:27:37+08:00 ] 0.0.0.0 /his1/index.php/user/bottom
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000360s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003983s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000125s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000139s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000083s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000238s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2014-10-10T08:27:39+08:00 ] 0.0.0.0 /his1/index.php/patient/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000274s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.002760s ]
+SQL: SHOW COLUMNS FROM `operation_field` [ RunTime:0.002136s ]
+SQL: SELECT * FROM `operation_field` WHERE ( department_id=1 and search='1' )  [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: field_value /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 71 行.
+NOTIC: [8] Undefined variable: field_value /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 71 行.
+NOTIC: [8] Undefined variable: field_value /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 71 行.
+NOTIC: [8] Undefined variable: field_value /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `diagnosis` [ RunTime:0.001963s ]
+SQL: SELECT * FROM `diagnosis`  [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.000863s ]
+SQL: SELECT * FROM `doctor` WHERE ( department_id=1 )  [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `medicine` [ RunTime:0.001624s ]
+SQL: SELECT * FROM `medicine` WHERE ( department_id=1 )  [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: medical_id /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 85 行.
+NOTIC: [8] Undefined variable: name /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 86 行.
+NOTIC: [8] Undefined variable: age /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 87 行.
+NOTIC: [8] Undefined variable: sex /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 88 行.
+NOTIC: [8] Undefined variable: diagnosis_id /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 89 行.
+NOTIC: [8] Undefined variable: doctor_id /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 90 行.
+NOTIC: [8] Undefined variable: medicine_id /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 91 行.
+NOTIC: [8] Undefined variable: admission_time /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: status /Applications/XAMPP/xamppfiles/projects/his1/Runtime/Cache/983345c65ef00024e12237ce44e3b59a.php 第 121 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006022s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000148s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000126s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000078s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000218s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000238s ]
+
+[ 2014-10-10T08:27:39+08:00 ] 0.0.0.0 /his1/index.php/patient/indexResult
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000304s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.001468s ]
+NOTIC: [8] Undefined index: cnt /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `operation_field` [ RunTime:0.000868s ]
+SQL: SELECT * FROM `operation_field` WHERE ( department_id=1 and search='1' )  [ RunTime:0.000228s ]
+SQL: select p.id, p.medical_id, p.name, p.sex, p.age, p.admission_time, dd.name as diagnosis_name, d.name as doctor_name from patient p left join diagnosis dd on p.diagnosis_id=dd.id left join doctor d on d.id=p.attending_doctor_id where 1=1  [ RunTime:0.000231s ]
+SQL: select p.id, p.medical_id, p.name, p.sex, p.age, p.admission_time, dd.name as diagnosis_name, d.name as doctor_name from patient p left join diagnosis dd on p.diagnosis_id=dd.id left join doctor d on d.id=p.attending_doctor_id where 1=1 limit 0, 2 [ RunTime:0.000164s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003900s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000127s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000131s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000077s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000223s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000244s ]
+
+[ 2014-10-10T08:28:30+08:00 ] 0.0.0.0 /his1/index.php/patient/indexResult
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000360s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.002233s ]
+SQL: SHOW COLUMNS FROM `operation_field` [ RunTime:0.000865s ]
+SQL: SELECT * FROM `operation_field` WHERE ( department_id=1 and search='1' )  [ RunTime:0.000210s ]
+SQL: select p.id, p.medical_id, p.name, p.sex, p.age, p.admission_time, dd.name as diagnosis_name, d.name as doctor_name from patient p left join diagnosis dd on p.diagnosis_id=dd.id left join doctor d on d.id=p.attending_doctor_id where 1=1 and (1=1 ) or (1=1 and d.id=1 )  [ RunTime:0.000196s ]
+SQL: select p.id, p.medical_id, p.name, p.sex, p.age, p.admission_time, dd.name as diagnosis_name, d.name as doctor_name from patient p left join diagnosis dd on p.diagnosis_id=dd.id left join doctor d on d.id=p.attending_doctor_id where 1=1 and (1=1 ) or (1=1 and d.id=1 ) limit 0, 2 [ RunTime:0.000149s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004624s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000141s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000155s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000080s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000233s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2014-10-10T08:28:57+08:00 ] 0.0.0.0 /his1/index.php/patient/indexResult
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000329s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `operation_field` [ RunTime:0.000880s ]
+SQL: SELECT * FROM `operation_field` WHERE ( department_id=1 and search='1' )  [ RunTime:0.000210s ]
+SQL: select p.id, p.medical_id, p.name, p.sex, p.age, p.admission_time, dd.name as diagnosis_name, d.name as doctor_name from patient p left join diagnosis dd on p.diagnosis_id=dd.id left join doctor d on d.id=p.attending_doctor_id where 1=1 and (1=1 ) or (1=1 and d.id=1 )  [ RunTime:0.000174s ]
+SQL: select p.id, p.medical_id, p.name, p.sex, p.age, p.admission_time, dd.name as diagnosis_name, d.name as doctor_name from patient p left join diagnosis dd on p.diagnosis_id=dd.id left join doctor d on d.id=p.attending_doctor_id where 1=1 and (1=1 ) or (1=1 and d.id=1 ) limit 0, 2 [ RunTime:0.000129s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004109s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000129s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000135s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000078s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000226s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2014-10-10T08:29:01+08:00 ] 0.0.0.0 /his1/index.php/patient/indexResult
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000586s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.002095s ]
+SQL: SHOW COLUMNS FROM `operation_field` [ RunTime:0.000867s ]
+SQL: SELECT * FROM `operation_field` WHERE ( department_id=1 and search='1' )  [ RunTime:0.000223s ]
+SQL: select p.id, p.medical_id, p.name, p.sex, p.age, p.admission_time, dd.name as diagnosis_name, d.name as doctor_name from patient p left join diagnosis dd on p.diagnosis_id=dd.id left join doctor d on d.id=p.attending_doctor_id where 1=1 and (1=1 and d.id=2 ) or (1=1 and d.id=1 )  [ RunTime:0.000267s ]
+SQL: select p.id, p.medical_id, p.name, p.sex, p.age, p.admission_time, dd.name as diagnosis_name, d.name as doctor_name from patient p left join diagnosis dd on p.diagnosis_id=dd.id left join doctor d on d.id=p.attending_doctor_id where 1=1 and (1=1 and d.id=2 ) or (1=1 and d.id=1 ) limit 0, 2 [ RunTime:0.000201s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003372s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000121s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000123s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000074s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000213s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2014-10-10T08:29:03+08:00 ] 0.0.0.0 /his1/index.php/patient/indexResult/doctor_id_1/2/operate_1/0/doctor_id_2/1/operate_2/1/cnt/2/p/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000278s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.002665s ]
+SQL: SHOW COLUMNS FROM `operation_field` [ RunTime:0.001213s ]
+SQL: SELECT * FROM `operation_field` WHERE ( department_id=1 and search='1' )  [ RunTime:0.000316s ]
+NOTIC: [8] Undefined index: medical_id_1 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 21 行.
+NOTIC: [8] Undefined index: name_1 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: sex_1 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 27 行.
+NOTIC: [8] Undefined index: age_1 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 30 行.
+NOTIC: [8] Undefined index: diagnosis_id_1 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 33 行.
+NOTIC: [8] Undefined index: admission_time_1 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 39 行.
+NOTIC: [8] Undefined index: medicine_id_1 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 42 行.
+NOTIC: [8] Undefined index: 3_1 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 47 行.
+NOTIC: [8] Undefined index: 4_1 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 47 行.
+NOTIC: [8] Undefined index: 5_1 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 47 行.
+NOTIC: [8] Undefined index: 17_1 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 47 行.
+NOTIC: [8] Undefined index: medical_id_2 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 21 行.
+NOTIC: [8] Undefined index: name_2 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: sex_2 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 27 行.
+NOTIC: [8] Undefined index: age_2 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 30 行.
+NOTIC: [8] Undefined index: diagnosis_id_2 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 33 行.
+NOTIC: [8] Undefined index: admission_time_2 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 39 行.
+NOTIC: [8] Undefined index: medicine_id_2 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 42 行.
+NOTIC: [8] Undefined index: 3_2 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 47 行.
+NOTIC: [8] Undefined index: 4_2 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 47 行.
+NOTIC: [8] Undefined index: 5_2 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 47 行.
+NOTIC: [8] Undefined index: 17_2 /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/patientAction.class.php 第 47 行.
+SQL: select p.id, p.medical_id, p.name, p.sex, p.age, p.admission_time, dd.name as diagnosis_name, d.name as doctor_name from patient p left join diagnosis dd on p.diagnosis_id=dd.id left join doctor d on d.id=p.attending_doctor_id where 1=1 and (1=1 and d.id=2 ) or (1=1 and d.id=1 )  [ RunTime:0.000359s ]
+SQL: select p.id, p.medical_id, p.name, p.sex, p.age, p.admission_time, dd.name as diagnosis_name, d.name as doctor_name from patient p left join diagnosis dd on p.diagnosis_id=dd.id left join doctor d on d.id=p.attending_doctor_id where 1=1 and (1=1 and d.id=2 ) or (1=1 and d.id=1 ) limit 2, 2 [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005032s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000159s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000162s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000098s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000278s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2014-10-10T08:29:12+08:00 ] 0.0.0.0 /his1/index.php/patient/indexResult
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000353s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.002239s ]
+SQL: SHOW COLUMNS FROM `operation_field` [ RunTime:0.000825s ]
+SQL: SELECT * FROM `operation_field` WHERE ( department_id=1 and search='1' )  [ RunTime:0.000203s ]
+SQL: select p.id, p.medical_id, p.name, p.sex, p.age, p.admission_time, dd.name as diagnosis_name, d.name as doctor_name from patient p left join diagnosis dd on p.diagnosis_id=dd.id left join doctor d on d.id=p.attending_doctor_id where 1=1 and (1=1 and d.id=2 ) or (1=1 and d.id=1 )  [ RunTime:0.000201s ]
+SQL: select p.id, p.medical_id, p.name, p.sex, p.age, p.admission_time, dd.name as diagnosis_name, d.name as doctor_name from patient p left join diagnosis dd on p.diagnosis_id=dd.id left join doctor d on d.id=p.attending_doctor_id where 1=1 and (1=1 and d.id=2 ) or (1=1 and d.id=1 ) limit 0, 15 [ RunTime:0.000162s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004035s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000131s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000143s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000088s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000231s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2014-10-10T17:23:35+08:00 ] 0.0.0.0 /his1/index.php/user/login/d
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000553s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/projects/his1/Runtime/Cache/1ea81dadae8bcf90cf57ccf32a47b66d.php 第 20 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003264s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000153s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000147s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000086s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000251s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2014-10-10T17:23:38+08:00 ] 0.0.0.0 /his1/index.php/user/loginCheck
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000293s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.001140s ]
+SQL: SELECT `id` FROM `doctor` WHERE ( job_id='123' ) LIMIT 1   [ RunTime:0.000166s ]
+SQL: SELECT `password` FROM `doctor` WHERE ( job_id='123' ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT `name` FROM `doctor` WHERE ( job_id='123' ) LIMIT 1   [ RunTime:0.000087s ]
+SQL: SELECT `department_id` FROM `doctor` WHERE ( job_id='123' ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.000679s ]
+SQL: SELECT `inpatient_area_id` FROM `department` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `inpatient_area` [ RunTime:0.000663s ]
+SQL: SELECT * FROM `inpatient_area` WHERE ( id='1' )  [ RunTime:0.000176s ]
+
+[ 2014-10-10T17:23:38+08:00 ] 0.0.0.0 /his1/index.php/user/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000282s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002396s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000123s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000128s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000077s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000234s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2014-10-10T17:23:38+08:00 ] 0.0.0.0 /his1/index.php/user/top
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000377s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.005033s ]
+SQL: SELECT `name` FROM `department` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: level /Applications/XAMPP/xamppfiles/projects/his1/Runtime/Cache/701061b74b4c9d06c4d899cdbc4de61d.php 第 6 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006222s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000195s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000214s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000128s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000394s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2014-10-10T17:23:38+08:00 ] 0.0.0.0 /his1/index.php/user/left
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000394s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004466s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000139s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000132s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000079s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000224s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2014-10-10T17:23:38+08:00 ] 0.0.0.0 /his1/index.php/user/right
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+
+[ 2014-10-10T17:23:38+08:00 ] 0.0.0.0 /his1/index.php/user/bottom
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000518s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 38 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 42 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given /Applications/XAMPP/xamppfiles/projects/his1/Lib/Action/GlobalAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002847s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000119s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000144s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000104s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000226s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000249s ]
+

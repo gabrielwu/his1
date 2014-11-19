@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    font-family: Lucida Grande, simsun;
+}
+.footer {
+	background: url(../img/bottom.gif) no-repeat;
+	min-height: 200px;
+	margin: auto;
+	width: 997px;
+}
+.footernav {
+	height: 42px;
+}
+.footernav ul {
+	margin: 16px 25px 0 0;
+	float: right;
+	display: inline;
+}
+.footernav li {
+	width: 90px;
+	float: left;
+	text-align: center;
+}
+.footernav li a {
+	color: white;
+	font-size: 11pt;
+}
+.footer p {
+	padding-top: 5px;
+	text-align: center;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
+.banner {
+    position: relative;
+    background: url(../img/a_banner.gif) right top no-repeat;
+    width: 997px;
+    margin: 0 auto;
+}
+.bannerimg {
+	float: left;
+	width: 575px;
+	height: 83px;
+}
+.position_top {
+    float: right;
+    margin: 28px 30px 0 0;
+    width: 220px;
+    display: inline;
+}
+.titlebar {
+    color: white;
+    height: 28px;
+    font-size: 16pt;
+    padding: 0 0 8px 30px;
+}
+.top_links a:hover {
+    text-decoration: underline;
+}
+.top_links a {
+    padding: 0 8px;
+    color: black;
+    font-size: 10pt;
+}
+.top_links a.english {
+    color: #2F529E;
+}
+.statusbar {
+	background: url(../img/bg_main.gif) repeat-y;
+	height: 30px;
+}
+.greeting {
+	margin: 8px 0 0 24px;
+	float: left;
+	font-size: 11pt;
+	display: inline;/*for ie6*/
+}
+.statusbar-rightop {
+	float: right;
+	margin: 10px 30px 0 0;
+	display: inline;/*for ie6*/
+}
+.statusbar-rightop a {
+	font-size: 11pt;
+}
+.statusbar-rightop a:hover {
+	color: red;
+}
+.content {
+    background: url(../img/bg_main.gif) repeat-y;
+    margin: auto;
+    width: 997px;
+    padding: 5px 0 40px 0;
+}
+.optionp {
+    float: left;
+    margin-left: 14px;
+    width: 180px;
+    height: 600px;
+    border-right: 1px solid #CEE1EE;
+    overflow: hidden;
+    display: inline;
+}
+.optiontitle {
+    padding: 5px 0 5px 30px;
+    font-weight: bold;
+    color: white;
+    background: #558BC6;
+    font-size: 11pt;
+}
+.optiontitle.switchon {
+    background-image: url(../img/switch3.png);
+    background-repeat: no-repeat;
+    background-position: 12px 9px;
+}
+.optioncatag li {
+    padding: 5px 0 5px 45px;
+    font-size: 11pt;
+}
+.optioncatag li img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    float: left;
+}
+.optionfocus {
+    background: #CEE1EE;
+}
+.mainp {
+    margin: 0 14px 0 200px;
+}
+.toolbar {
+    background: url(../img/nv.png) repeat 0 0;
+    height: 31px;
+    padding-top: 1px;
+    overflow: hidden;
+}
+.toolbartab {
+    float: left;
+    font-size: 11pt;
+    font-weight: bold;
+    padding: 8px 15px 0 15px;
+    height: 33px;
+    color: white;
+}
+.toolbartab:hover {
+    background: url(../img/nv_a.png) no-repeat 50% -66px;
+}
+.toolbarfocus {
+    background: url(../img/nv_a.png) no-repeat 50% -33px;
+}
+.view {
+    min-height: 600px;
+    margin-bottom: 40px;
+}
+.viewtitle {
+    padding: 4px 0 8px 20px;
+    background: url(../img/bottom.png) no-repeat 0 100%;
+    font-size: 11pt;
+    font-weight: bold;
+}
+.viewtitle img {
+    width: 16px;
+    height: 16px;
+    margin: 2px 5px 0 0;
+}
+.viewtitle a:hover {
+	color: green;
+}
+.graderow {
+    overflow: auto;
+    zoom: 1;
+}
+.graderow-title {
+    padding: 5px 0 5px 20px;
+    background: url(../img/bottom.png) no-repeat 0 100%;
+    margin-top: 5px;
+}
+.classfolder {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    background: url(../img/folder.png) no-repeat;
+}
+.classfolder a {
+    float: left;
+    margin: 50px 0 0 30px;
+    width: 40px;
+    text-align: center;
+    color: white;
+}

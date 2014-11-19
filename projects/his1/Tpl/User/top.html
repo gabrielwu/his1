@@ -1,0 +1,12 @@
+{$css}
+<div id="top">
+    <div>
+        <a href="{$url}/logout" target="_parent">退出</a>
+        <span>您好，{$department_name} {$userTypeCn} {$user_name}</span>
+        <if condition="($level eq 2)"> 
+            <!--<a href="{$root}/index.php/Student/editConfirmList" target="main">信息审核</a>&nbsp;&nbsp;-->
+        </if>
+    </div>
+    <p>患者回访系统</p> 
+</div>
+{$js}

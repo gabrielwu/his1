@@ -1,0 +1,108 @@
+@charset "utf-8";
+body,div,*{ margin:0px; padding:0px;  font-size:16px; font-family: Helvetica,Arial, \5FAE\8F6F\96C5\9ED1; }
+body,html{height: 100%;}
+li{ list-style:none;}
+textarea {width: 400px; height: 50px;}
+body{ background:#fff;}
+input.btn2 {width: 50px; height: 10px; margin: 5px; font-size: 18px;}
+#war{ width:100%; height:100%; overflow: hidden; position: relative;}
+#war[id]{display: table; position: static;}
+
+#middle {position: absolute; top: 30%;} /* for explorer only*/ 
+#middle[id] {display: table-cell; vertical-align: middle; position: static;} 
+
+#box{ width:480px; height:270px; margin:auto; border: 8px solid #0c75d5;text-shadow: 1px 1px 1px #222;} 
+div.bg{ } 
+
+#box .title{ text-align: center; line-height: 200%; font-weight: normal; font-size: 24px; text-align: center; color: #fff; background: #0c75d5; width:100%; padding:12px 0 12px 0; clear:both;}
+#box form{ width:390px; height:106px; padding: 10px 0; no-repeat; margin:10px auto 0 auto; clear:both;}
+
+div.field-group {
+    padding: 10px 20px 6px 20px;
+    width: 350px;
+    text-align: center;
+}
+
+div.field-group label {
+	width: 40px; 
+	height: 30px; 
+	font-size: 14px; 
+	line-height: 21px; 
+	color: #7b7c7d; 
+	padding-right: 28px; 
+	text-align: right; 
+	vertical-align: middle;
+    text-shadow: 1px 1px 1px #eee;
+}
+div.field-group .reg_input {
+    width: 238px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    line-height: 24px;
+    height: 36px;
+    vertical-align: top;
+    font-size: 14px;
+    color: #aaa;
+    box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,0.075);
+}
+div.field-group .inline-tip {
+	height: 20px;
+	vertical-align: top;
+	display: inline-block;
+	padding: 0px 0px 0px 0px;
+	line-height: 20px;
+}
+div.field-group #error {
+	color: #f00;
+    text-shadow: 1px 1px 1px #C9B8B8;
+}
+div.field-group .correct {
+}
+.btn {
+    text-shadow: 1px 1px 1px #222;
+	width: 102px;
+	margin: 0 4px;
+    padding: 3px 20px;
+    color: white;
+    background-color: #0c75d5;
+    box-shadow: inset 0 1px 0 #0c75d5;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    cursor: pointer;
+	border:0;
+}
+.btn:hover {
+    background-color: #0c75d5;
+}
+.btn-90 {width: 90px; margin: 0 6px;}
+#btn_submit { margin: 0 10px 0 10px; height: 32px;}
+div.field-group a {
+    margin: 0 0 0 4px;
+    font-size: 12px;
+    line-height: 32px;
+    vertical-align: top;
+    zoom: 1;
+    color: #666;
+    text-decoration: none;
+}
+div.field-group a:hover {
+    zoom: 1;
+    color: #666;
+    text-decoration: underline;
+}
+
+#box .magess{ width:330px; height:55px; line-height:55px; color:#16389a; text-align:center; margin:0 auto; clear:both;}
+#box .bottom{ text-align: center; width:536px; height:42px; padding:1px 12px 12px 22px; line-height:42px; color:#fff; font-size:18px; font-weight:bold; clear:both;}
+
+
+
+
+.lablename{width:75px; height:30px; font-size:14px; line-height:21px; color:#7b7c7d; padding-right:10px; text-align:right; float:left;}
+.lablename1{}
+
+.but{ width:56px; height:22px;  background:url(../images/log_29.png); margin-left:10px!important;margin-left:10px; margin-top:0px;  border:none; display:block;}
+.radio{ border:none; width:15px; height:20px; line-height:30px; vertical-align:middle;}

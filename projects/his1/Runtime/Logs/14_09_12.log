@@ -1,0 +1,2006 @@
+[ 2014-09-12T09:22:47+08:00 ] 0.0.0.0 /his1/index.php/user/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000982s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+NOTIC: [8] Undefined index: username /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/userAction.class.php 第 71 行.
+NOTIC: [8] Undefined index: password /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/userAction.class.php 第 72 行.
+NOTIC: [8] Undefined index: userType /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/userAction.class.php 第 73 行.
+NOTIC: [8] Undefined variable: password /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/userAction.class.php 第 97 行.
+NOTIC: 建议使用I方法替代_param
+NOTIC: [8] Undefined index:  /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/userAction.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005971s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000440s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000426s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002083s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2014-09-12T09:22:55+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000320s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003442s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000139s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000132s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000091s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000246s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000274s ]
+
+[ 2014-09-12T09:23:46+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000307s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003324s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000149s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000134s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000120s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000262s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000298s ]
+
+[ 2014-09-12T09:34:03+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000286s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000130s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000134s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000085s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000223s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000248s ]
+
+[ 2014-09-12T09:34:12+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000284s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002826s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000129s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000134s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000086s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000234s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2014-09-12T09:35:28+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000318s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003150s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000122s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000121s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000229s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000253s ]
+
+[ 2014-09-12T09:35:34+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003512s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000133s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000104s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000230s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2014-09-12T09:36:16+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000284s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002986s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000118s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000124s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000078s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000218s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000239s ]
+
+[ 2014-09-12T09:36:16+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000277s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002640s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000116s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000121s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000077s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000231s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2014-09-12T09:36:18+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000289s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002628s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000115s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000122s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000076s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000277s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2014-09-12T09:36:20+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000314s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002842s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000126s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000130s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000088s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000233s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2014-09-12T09:36:38+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000283s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002936s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000148s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000133s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000225s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000246s ]
+
+[ 2014-09-12T09:36:39+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000339s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003167s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000123s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000121s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000089s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000231s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2014-09-12T09:36:57+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000334s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003117s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000123s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000123s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000089s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000243s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2014-09-12T09:37:14+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000285s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002937s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000118s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000128s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000079s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000219s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000242s ]
+
+[ 2014-09-12T09:37:22+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003119s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000124s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000137s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000111s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000226s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2014-09-12T09:37:31+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000306s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002914s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000124s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000125s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000079s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000213s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2014-09-12T09:38:45+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000287s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002966s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000129s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000126s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000080s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000227s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2014-09-12T09:39:13+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000362s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003052s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000122s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000093s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000217s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000238s ]
+
+[ 2014-09-12T09:45:50+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000285s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 69 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003284s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000144s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000148s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000091s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000285s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2014-09-12T09:46:14+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 69 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002673s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000119s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000125s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000080s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000239s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2014-09-12T09:47:25+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000296s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 69 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000118s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000123s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000078s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000216s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000241s ]
+
+[ 2014-09-12T09:48:19+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000327s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 69 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003099s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000146s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000124s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000109s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000336s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2014-09-12T09:48:24+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000286s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 69 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002653s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000119s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000124s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000083s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000211s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000232s ]
+
+[ 2014-09-12T09:49:27+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000388s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 70 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002681s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000129s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000124s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000078s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000213s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000233s ]
+
+[ 2014-09-12T09:49:48+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000304s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 70 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002948s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000132s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000131s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000083s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000234s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2014-09-12T09:49:59+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 70 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002950s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000130s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000133s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000093s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000229s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2014-09-12T09:53:42+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000365s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003014s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000144s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000138s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000098s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000244s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000268s ]
+
+[ 2014-09-12T09:53:45+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000295s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003502s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000149s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000132s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000088s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000230s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2014-09-12T09:53:55+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000477s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004621s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000177s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000177s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000104s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000232s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2014-09-12T09:54:22+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000303s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002656s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000118s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000136s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000082s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000219s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2014-09-12T09:54:25+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000290s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002902s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000124s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000137s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000092s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000229s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2014-09-12T09:54:48+08:00 ] 0.0.0.0 /his1/index.php/user/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000324s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.004252s ]
+SQL: SELECT `id` FROM `admin` WHERE ( username='gabrielwu' ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT `password` FROM `admin` WHERE ( username='gabrielwu' ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SELECT `department_id` FROM `admin` WHERE ( username='gabrielwu' ) LIMIT 1   [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003020s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000123s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000132s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000085s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000234s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2014-09-12T09:54:48+08:00 ] 0.0.0.0 /his1/index.php/user/top
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.002237s ]
+SQL: SELECT `name` FROM `department` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.000137s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: level /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/53093c2a8a3a101f1251989002753c57.php 第 21 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006311s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000179s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000186s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000108s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000800s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000274s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000308s ]
+
+[ 2014-09-12T09:54:48+08:00 ] 0.0.0.0 /his1/index.php/user/left
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000346s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003093s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000129s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000129s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000081s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000241s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000265s ]
+
+[ 2014-09-12T09:54:48+08:00 ] 0.0.0.0 /his1/index.php/user/right
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+
+[ 2014-09-12T09:54:48+08:00 ] 0.0.0.0 /his1/index.php/user/bottom
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000286s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002768s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000122s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000128s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000081s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000229s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2014-09-12T09:54:52+08:00 ] 0.0.0.0 /his1/index.php/inpatientArea/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000361s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `inpatient_area` [ RunTime:0.002133s ]
+SQL: SELECT * FROM `inpatient_area`  [ RunTime:0.000151s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004332s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000153s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000131s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000078s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000230s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2014-09-12T09:54:54+08:00 ] 0.0.0.0 /his1/index.php/department/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000296s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.001352s ]
+SQL: select d.*, a.name as area_name from department d, inpatient_area a where d.inpatient_area_id=a.id [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `inpatient_area` [ RunTime:0.000666s ]
+SQL: SELECT * FROM `inpatient_area` WHERE ( status='1' )  [ RunTime:0.000123s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005056s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000125s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000075s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000222s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2014-09-12T09:54:55+08:00 ] 0.0.0.0 /his1/index.php/medicineUnit/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000281s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `medicine_unit` [ RunTime:0.001206s ]
+SQL: SELECT * FROM `medicine_unit`  [ RunTime:0.000115s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003284s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000123s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000126s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000076s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000217s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000237s ]
+
+[ 2014-09-12T09:54:57+08:00 ] 0.0.0.0 /his1/index.php/medicineFrequency/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000275s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `medicine_frequency` [ RunTime:0.002899s ]
+SQL: SELECT * FROM `medicine_frequency`  [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004843s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000179s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000187s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000113s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2014-09-12T09:54:58+08:00 ] 0.0.0.0 /his1/index.php/medicineUsage/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000282s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `medicine_usage` [ RunTime:0.002742s ]
+SQL: SELECT * FROM `medicine_usage`  [ RunTime:0.000170s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004051s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000131s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000136s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000080s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000228s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2014-09-12T09:55:00+08:00 ] 0.0.0.0 /his1/index.php/diagnosis/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000304s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `diagnosis` [ RunTime:0.002714s ]
+
+[ 2014-09-12T09:55:00+08:00 ] 0.0.0.0 /his1/index.php/User/denied.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000276s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002633s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000119s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000133s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000088s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000211s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000232s ]
+
+[ 2014-09-12T09:55:01+08:00 ] 0.0.0.0 /his1/index.php/medicine/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000294s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `medicine` [ RunTime:0.002439s ]
+
+[ 2014-09-12T09:55:01+08:00 ] 0.0.0.0 /his1/index.php/User/denied.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000273s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002275s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000116s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000132s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000087s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000244s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000269s ]
+
+[ 2014-09-12T09:55:02+08:00 ] 0.0.0.0 /his1/index.php/operation/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000282s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+ERR: 无法加载模块:operation
+
+[ 2014-09-12T09:55:04+08:00 ] 0.0.0.0 /his1/index.php/user/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000299s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+
+[ 2014-09-12T09:55:04+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000320s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002765s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000117s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000123s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000080s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000218s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000240s ]
+
+[ 2014-09-12T09:55:15+08:00 ] 0.0.0.0 /his1/index.php/user/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000285s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.001166s ]
+SQL: SELECT `id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000141s ]
+SQL: SELECT `password` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: SELECT `department_id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000123s ]
+NOTIC: 建议使用I方法替代_param
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003081s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000126s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000129s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000086s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000268s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2014-09-12T09:55:38+08:00 ] 0.0.0.0 /his1/index.php/user/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000292s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.000765s ]
+SQL: SELECT `id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT `password` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000081s ]
+SQL: SELECT `department_id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000078s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002727s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000123s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000128s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000079s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000234s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2014-09-12T09:55:38+08:00 ] 0.0.0.0 /his1/index.php/user/top
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000437s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.000907s ]
+SQL: SELECT `name` FROM `department` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: level /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/53093c2a8a3a101f1251989002753c57.php 第 21 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005105s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000181s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000190s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000114s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2014-09-12T09:55:38+08:00 ] 0.0.0.0 /his1/index.php/user/right
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+
+[ 2014-09-12T09:55:38+08:00 ] 0.0.0.0 /his1/index.php/user/left
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000297s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003273s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000183s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000170s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000104s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000247s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2014-09-12T09:55:38+08:00 ] 0.0.0.0 /his1/index.php/user/bottom
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000475s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002572s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000140s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000129s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000080s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000232s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2014-09-12T09:55:41+08:00 ] 0.0.0.0 /his1/index.php/user/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000327s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+
+[ 2014-09-12T09:55:41+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000283s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002748s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000117s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000132s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000078s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000230s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2014-09-12T09:55:43+08:00 ] 0.0.0.0 /his1/index.php/user/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000277s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.000674s ]
+SQL: SELECT `id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000123s ]
+SQL: SELECT `password` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SELECT `department_id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002657s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000121s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000077s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000239s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000265s ]
+
+[ 2014-09-12T09:55:43+08:00 ] 0.0.0.0 /his1/index.php/user/top
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000305s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.000733s ]
+SQL: SELECT `name` FROM `department` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.000140s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: level /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/53093c2a8a3a101f1251989002753c57.php 第 21 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003237s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000232s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000543s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002148s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000936s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2014-09-12T09:55:43+08:00 ] 0.0.0.0 /his1/index.php/user/left
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003345s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000173s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000133s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000240s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000265s ]
+
+[ 2014-09-12T09:55:43+08:00 ] 0.0.0.0 /his1/index.php/user/bottom
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002387s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000119s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000126s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000080s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000231s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000253s ]
+
+[ 2014-09-12T09:55:43+08:00 ] 0.0.0.0 /his1/index.php/user/right
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+
+[ 2014-09-12T09:55:47+08:00 ] 0.0.0.0 /his1/index.php/user/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000334s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.000767s ]
+SQL: SELECT `id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000141s ]
+SQL: SELECT `password` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SELECT `department_id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000081s ]
+NOTIC: 建议使用I方法替代_param
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002729s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000113s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000121s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000073s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000214s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000238s ]
+
+[ 2014-09-12T09:55:54+08:00 ] 0.0.0.0 /his1/index.php/user/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000274s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.001268s ]
+SQL: SELECT `id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT `password` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SELECT `department_id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000121s ]
+NOTIC: 建议使用I方法替代_param
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003077s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000129s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000134s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000083s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000233s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2014-09-12T09:55:58+08:00 ] 0.0.0.0 /his1/index.php/user/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000303s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.000782s ]
+SQL: SELECT `id` FROM `admin` WHERE ( username='qwe' ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SELECT `password` FROM `admin` WHERE ( username='qwe' ) LIMIT 1   [ RunTime:0.000080s ]
+SQL: SELECT `department_id` FROM `admin` WHERE ( username='qwe' ) LIMIT 1   [ RunTime:0.000077s ]
+NOTIC: 建议使用I方法替代_param
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002774s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000120s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000078s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000225s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000248s ]
+
+[ 2014-09-12T09:56:00+08:00 ] 0.0.0.0 /his1/index.php/user/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000286s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.000799s ]
+SQL: SELECT `id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SELECT `password` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000080s ]
+SQL: SELECT `department_id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002432s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000127s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000130s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000076s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000223s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000245s ]
+
+[ 2014-09-12T09:56:01+08:00 ] 0.0.0.0 /his1/index.php/user/top
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000301s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.000776s ]
+SQL: SELECT `name` FROM `department` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.000140s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: level /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/53093c2a8a3a101f1251989002753c57.php 第 21 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002989s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000143s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000146s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000080s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000236s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2014-09-12T09:56:01+08:00 ] 0.0.0.0 /his1/index.php/user/left
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000312s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003372s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000125s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000080s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000299s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2014-09-12T09:56:01+08:00 ] 0.0.0.0 /his1/index.php/user/right
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000487s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+
+[ 2014-09-12T09:56:01+08:00 ] 0.0.0.0 /his1/index.php/user/bottom
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000571s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005686s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000258s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000288s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000197s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001237s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2014-09-12T09:56:04+08:00 ] 0.0.0.0 /his1/index.php/medicineUsage/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `medicine_usage` [ RunTime:0.001206s ]
+
+[ 2014-09-12T09:56:04+08:00 ] 0.0.0.0 /his1/index.php/User/denied.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000269s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002390s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000114s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000121s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000076s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000212s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000233s ]
+
+[ 2014-09-12T09:56:05+08:00 ] 0.0.0.0 /his1/index.php/diagnosis/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `diagnosis` [ RunTime:0.001305s ]
+NOTIC: [8] Undefined offset: 3 /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/diagnosisAction.class.php 第 18 行.
+SQL: SELECT * FROM `diagnosis` WHERE ( department_id='1'  )  [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.000590s ]
+NOTIC: [2] Missing argument 1 for Model::where(), called in /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/diagnosisAction.class.php on line 32 and defined /Applications/XAMPP/xamppfiles/htdocs/his1/ThinkPHP/Lib/Core/Model.class.php 第 1480 行.
+NOTIC: [8] Undefined variable: where /Applications/XAMPP/xamppfiles/htdocs/his1/ThinkPHP/Lib/Core/Model.class.php 第 1488 行.
+NOTIC: [8] Undefined variable: where /Applications/XAMPP/xamppfiles/htdocs/his1/ThinkPHP/Lib/Core/Model.class.php 第 1491 行.
+NOTIC: [8] Undefined variable: where /Applications/XAMPP/xamppfiles/htdocs/his1/ThinkPHP/Lib/Core/Model.class.php 第 1499 行.
+SQL: SELECT * FROM `department`  [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: adminType /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/diagnosisAction.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005873s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000191s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000185s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000116s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000328s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2014-09-12T09:56:08+08:00 ] 0.0.0.0 /his1/index.php/medicine/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000330s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `medicine` [ RunTime:0.001515s ]
+NOTIC: [8] Undefined offset: 3 /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/medicineAction.class.php 第 18 行.
+SQL: SELECT * FROM `medicine` WHERE ( department_id='1'  )  [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.000572s ]
+NOTIC: [2] Missing argument 1 for Model::where(), called in /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/medicineAction.class.php on line 31 and defined /Applications/XAMPP/xamppfiles/htdocs/his1/ThinkPHP/Lib/Core/Model.class.php 第 1480 行.
+NOTIC: [8] Undefined variable: where /Applications/XAMPP/xamppfiles/htdocs/his1/ThinkPHP/Lib/Core/Model.class.php 第 1488 行.
+NOTIC: [8] Undefined variable: where /Applications/XAMPP/xamppfiles/htdocs/his1/ThinkPHP/Lib/Core/Model.class.php 第 1491 行.
+NOTIC: [8] Undefined variable: where /Applications/XAMPP/xamppfiles/htdocs/his1/ThinkPHP/Lib/Core/Model.class.php 第 1499 行.
+SQL: SELECT * FROM `department`  [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: adminType /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/medicineAction.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004150s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000146s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000136s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000079s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000241s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000262s ]
+
+[ 2014-09-12T10:22:38+08:00 ] 0.0.0.0 /his1/index.php/user/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000290s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.001630s ]
+SQL: SELECT `id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000172s ]
+SQL: SELECT `password` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000112s ]
+SQL: SELECT `department_id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000106s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003401s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000130s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000137s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000082s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000229s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2014-09-12T10:22:38+08:00 ] 0.0.0.0 /his1/index.php/user/top
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.001245s ]
+SQL: SELECT `name` FROM `department` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.000141s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: level /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/53093c2a8a3a101f1251989002753c57.php 第 21 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002777s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000126s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000132s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000080s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000236s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2014-09-12T10:22:38+08:00 ] 0.0.0.0 /his1/index.php/user/left
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002915s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000134s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000130s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000082s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000226s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2014-09-12T10:22:38+08:00 ] 0.0.0.0 /his1/index.php/user/right
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000463s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+
+[ 2014-09-12T10:22:38+08:00 ] 0.0.0.0 /his1/index.php/user/bottom
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000293s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004094s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000188s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000192s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000115s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2014-09-12T10:29:48+08:00 ] 0.0.0.0 /his1/index.php/user/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000378s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.001352s ]
+SQL: SELECT `id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000153s ]
+SQL: SELECT `password` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT `department_id` FROM `admin` WHERE ( username='123' ) LIMIT 1   [ RunTime:0.000095s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002577s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000120s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000150s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000254s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000278s ]
+
+[ 2014-09-12T10:29:48+08:00 ] 0.0.0.0 /his1/index.php/user/left
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000297s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000126s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000133s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000084s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2014-09-12T10:29:48+08:00 ] 0.0.0.0 /his1/index.php/user/right
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000315s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+
+[ 2014-09-12T10:29:48+08:00 ] 0.0.0.0 /his1/index.php/user/top
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000282s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.000827s ]
+SQL: SELECT `name` FROM `department` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.000154s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: level /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/53093c2a8a3a101f1251989002753c57.php 第 21 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002779s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000136s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000133s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000079s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000224s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000247s ]
+
+[ 2014-09-12T10:29:48+08:00 ] 0.0.0.0 /his1/index.php/user/bottom
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002719s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000128s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000130s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000082s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000225s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000247s ]
+
+[ 2014-09-12T10:29:50+08:00 ] 0.0.0.0 /his1/index.php/title/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000270s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.001597s ]
+
+[ 2014-09-12T10:29:50+08:00 ] 0.0.0.0 /his1/index.php/User/denied.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000276s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002436s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000138s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000124s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000078s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000214s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000235s ]
+
+[ 2014-09-12T10:29:55+08:00 ] 0.0.0.0 /his1/index.php/user/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000327s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+
+[ 2014-09-12T10:29:55+08:00 ] 0.0.0.0 /his1/index.php/user/login/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000270s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: errorTip /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/390f5352760c824b97e4eb2afa6683fe.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002785s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000125s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000129s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000084s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000237s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2014-09-12T10:29:59+08:00 ] 0.0.0.0 /his1/index.php/user/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000321s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.001012s ]
+SQL: SELECT `id` FROM `admin` WHERE ( username='gabrielwu' ) LIMIT 1   [ RunTime:0.000173s ]
+SQL: SELECT `password` FROM `admin` WHERE ( username='gabrielwu' ) LIMIT 1   [ RunTime:0.000160s ]
+SQL: SELECT `department_id` FROM `admin` WHERE ( username='gabrielwu' ) LIMIT 1   [ RunTime:0.000123s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002505s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000131s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000138s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000084s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000211s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000232s ]
+
+[ 2014-09-12T10:29:59+08:00 ] 0.0.0.0 /his1/index.php/user/top
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.001136s ]
+SQL: SELECT `name` FROM `department` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.000146s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: level /Applications/XAMPP/xamppfiles/htdocs/his1/Runtime/Cache/53093c2a8a3a101f1251989002753c57.php 第 21 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002911s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000132s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000131s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000080s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000237s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000262s ]
+
+[ 2014-09-12T10:29:59+08:00 ] 0.0.0.0 /his1/index.php/user/right
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000457s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+
+[ 2014-09-12T10:29:59+08:00 ] 0.0.0.0 /his1/index.php/user/bottom
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000431s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003336s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000155s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000133s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000082s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000229s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2014-09-12T10:29:59+08:00 ] 0.0.0.0 /his1/index.php/user/left
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003627s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000127s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000131s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000082s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000226s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000248s ]
+
+[ 2014-09-12T10:30:02+08:00 ] 0.0.0.0 /his1/index.php/title/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000284s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.001264s ]
+SQL: SELECT * FROM `title`  [ RunTime:0.000115s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003454s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000123s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000129s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000076s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000235s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2014-09-12T10:31:23+08:00 ] 0.0.0.0 /his1/index.php/title/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000329s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.001341s ]
+SQL: INSERT INTO `title` (`name`,`status`) VALUES ('主任医师','1') [ RunTime:0.000671s ]
+
+[ 2014-09-12T10:31:24+08:00 ] 0.0.0.0 /his1/index.php/title/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000321s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.000700s ]
+SQL: SELECT * FROM `title`  [ RunTime:0.000153s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004072s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000128s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000134s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000086s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000273s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2014-09-12T10:43:44+08:00 ] 0.0.0.0 /his1/index.php/diagnosis/index/1//9
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000294s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `diagnosis` [ RunTime:0.001272s ]
+
+[ 2014-09-12T10:43:44+08:00 ] 0.0.0.0 /his1/index.php/User/denied.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000289s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/his1/Lib/Action/GlobalAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002404s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000124s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000132s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000085s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000225s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000247s ]
+

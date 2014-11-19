@@ -1,0 +1,137 @@
+{$css}
+<div id="right">
+    <div class="title">
+    	<span>患者信息</span> — <span>病历信息</span>
+    </div>
+	<div class="content">
+		<form action="{$url}/indexResult" target="indexResult" method="post">
+	        <table class=" tb2 tb100" id="tb_condition" >
+	            <thead>
+				    <tr class="">
+						<th width="">病历号</th>
+						<th width="">姓名</th>
+						<th width="">年龄</th>
+						<th width="">性别</th>
+						<th width="">诊断</th>
+						<th width="">主治医生</th>
+						<th width="">入院时间</th>
+						<th width="">用药</th>
+						<volist name="listOperationFieldSearch" id="data2">
+							<th>{$data2.name}</th>
+						</volist>
+						<th width="" class="operate">
+							<a id="aAdd" >添加</a>
+							<a id="aRemove" >删除</a>
+						</th>
+					</tr>
+				</thead>
+	            <tbody>
+	            	<tr id="tr_1">
+						<td align="center">
+							<input type="text" name="medical_id_1" value="{$medical_id}" class="input inputS" />
+						</td>
+						<td align="center">
+							<input type="text" name="name_1" value="{$name}" class="input inputS" />
+						</td>
+						<td align="center">
+							<input type="text" name="age_1" value="{$age}" class="input inputS" />
+						</td>
+						<td align="center">
+							<select name="sex_1" title="{$sex}" class="input _select">
+							    <option value="">全部</option>
+							    <option value="男">男</option>
+							    <option value="女">女</option>
+							</select>
+						</td>
+						<td align="center">
+							<select name="diagnosis_id_1" title="{$diagnosis_id}" class="input _select">
+							    <option value="">全部</option>
+								<volist name="listDiagnosis" id="data2">
+									<option value="{$data2.id}">{$data2.name}</option>
+								</volist>
+							</select>
+						</td>
+						<td align="center">
+							<select name="doctor_id_1" title="{$doctor_id}" class="input _select">
+							    <option value="">全部</option>
+								<volist name="listDoctor" id="data2">
+									<option value="{$data2.id}">{$data2.name}</option>
+								</volist>
+							</select>
+						</td>
+						<td align="center">
+							<input type="text" name="admission_time_1" value="{$admission_time}" class="input inputS" />
+						</td>
+						<td align="center">
+							<select name="medicine_id_1" title="{$medicine_id}" class="input _select">
+							    <option value="">全部</option>
+								<volist name="listMedicine" id="data2">
+									<option value="{$data2.id}">{$data2.name}</option>
+								</volist>
+							</select>
+						</td>
+						<volist name="listOperationFieldSearch" id="data2">
+							<td>
+								<if condition="$data2['type'] eq '1'"> 
+									<input type="text" id="test" name="{$data2.id}_1" value="{$data2.search}" class="input inputS" />
+								<else/> 
+								    <select name="{$data2.id}_1" title="{$data2.search}" class="_select input">
+										<option value="">全部</option>
+								    	<volist name="data2.options" id="data3">
+											<option value="{$data3}">{$data3}</option>
+										</volist>
+								    </select>
+								</if>
+							</td>
+						</volist>
+						<td align="center" class="operate">
+							<select name="operate_1" title="" class="input">
+								<option value="0">并且</option>
+								<option value="1">或者</option>
+								<option value="2">不含</option>
+							</select>
+						</td>
+					</tr>
+				</tbody>
+				</tfoot>
+	        </table>
+	        <div class="edit">
+	        	<input type="hidden" id="cnt" name="cnt"> 
+	        	<input type="submit" class="btn" value="查 询"/>
+	        </div>
+        </form><br>
+        <iframe frameborder="0" name="indexResult" src="{$url}/indexResult"></iframe>
+	</div>
+</div>
+{$js}
+<script type="text/javascript">
+function model() {
+    var id;
+}
+function aRemoveInit() {
+}
+var cnt = 1;
+$(function () {
+	$("#cnt").val(cnt);
+	aRemoveInit();
+    var trClone = $("#tr_1").clone();
+    $("#aAdd").click(function (){
+        var trTmp = trClone.clone();
+        cnt++;
+        trTmp.find(".input").each(function () {
+        	var nameLast = $(this).attr("name");
+        	var nameThis = nameLast.substring(0, nameLast.lastIndexOf("_") + 1) + cnt;
+        	$(this).attr("name", nameThis);
+        });
+        $("#tb_condition").append(trTmp);
+        $("#cnt").val(cnt);
+    });
+    $("#aRemove").click(function (){
+    	cnt--;
+        $("#tb_condition tr:last").remove();
+        $("#cnt").val(cnt);
+    });
+	$("select[name='diagnosis_id']").val("{$diagnosis_id}");
+	$("select[name='status']").val("{$status}");
+})
+</script>

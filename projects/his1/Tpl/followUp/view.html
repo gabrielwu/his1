@@ -1,0 +1,113 @@
+{$css}
+<div id="right">
+    <div class="title">
+    	<span>患者信息</span> — <span><a href="{$url}/index">回访信息</a></span> — <span>详细信息</span>
+    </div>
+	<div class="content">
+	    <div id="tab0" class="tab">
+    	    <table class="table4 tb1 tb2 tb80">
+    	    	<tr>
+                    <td><span>病历号：{$follow_up.medical_id}</span></td>
+                    <td><span>姓名：{$follow_up.patient_name}</span></td>
+                    <td><span>诊断：{$follow_up.diagnosis_name}</span></td>
+                    <td><span>科室：{$follow_up.department_name}</span></td>
+                    <td><span>回访状态：{$follow_up.status_val}</span></td>
+                </tr>
+    	    	<tr>
+                    <td colspan="2"><span class="">回访时间：{$follow_up.create_time}</span></td>
+                    <td colspan="2"><span>反馈时间：{$follow_up.check_out_time}</span></td>
+                    <td><span>反馈医生：{$follow_up.doctor_name}</span></td>
+                </tr>
+    	    	<tr>
+                    <td><span class="">描述</span></td>
+                    <td colspan="4">
+                        <textarea id="description" class="inputLock" readonly="readonly">{$follow_up.description}</textarea>
+                    </td>
+                </tr>
+    	    	<tr>
+                    <td><span class="">希望医生解决的问题</span></td>
+                    <td colspan="4">
+                        <textarea id="expectation" class="inputLock" readonly="readonly">{$follow_up.expectation}</textarea>
+                    </td>
+                </tr>
+    	    </table>
+
+	        <table class="tb1 tb2 tb80"  id="tb_medicine" >
+	            <thead>
+				    <tr class="">
+						<th colspan="8" width="">目前用药</th>
+					</tr>
+				</thead>
+	            <tbody id="">
+				    <tr align="center" class="">
+						<td width="">药物</td>
+						<td width="">频度</td>
+						<td width="">用法</td>
+                        <td width="">一次剂量</td>
+                        <td width="">剂量单位</td>
+                        <td width="">开始时间</td>
+                        <td width="">结束时间</td>
+					</tr>
+					<volist name="listMedicine" id="data">
+						<tr id="tr_medicine_1" class="tr_medicine">
+							<td align="center">{$data.medicine_name}</td>
+							<td align="center">{$data.frequency_value}</td>
+							<td align="center">{$data.usage_value}</td>
+							<td align="center">{$data.medicine_dose}</td>
+							<td align="center">{$data.unit_name}</td>
+	                        <td align="center">{$data.begin_time}</td>
+	                        <td align="center">{$data.end_time}</td>
+						</tr>
+					</volist>
+				</tbody>
+	        </table>
+            <table class="tb1 tb2 tb80"  id="tb_attachment" >
+                <thead>
+                    <tr class="">
+                        <th colspan="4" width="">附件</th>
+                    </tr>
+                </thead>
+                <tbody id="">
+                    <tr align="center" class="">
+                        <td width="">文件</td>
+                        <td width="">类型</td>
+                        <td width="">描述</td>
+                    </tr>
+					<volist name="listAttachment" id="data">
+	                    <tr id="tr_attachment_1" class="tr_attachment">
+	                        <td align="center"><a href='{$url}/download/{$data.file_name}'>下载查看</a></td>
+	                        <td align="center">{$data.attachment_type_name}</td>
+	                        <td align="center">{$data.description}</td>
+	                    </tr>
+	                </volist>
+                </tbody>
+            </table>
+<if condition="($userType eq 'd')">
+	        <br>
+    	    <table class="table4 tb1 tb2 tb80">
+    	    	<tr>
+                    <td><span class="">医生反馈</span></td>
+                    <td colspan="4">
+                        <textarea id="feedback" class="inputEdit">{$follow_up.feedback}</textarea>
+                    </td>
+                </tr>
+    	    </table>
+            <div class="edit">
+                <input id="edit_basic" onclick="javascript:submit()" type="button" class="btn" value="提交"  /><span id="tip"></span>
+            </div>  
+</if>
+    	</div>
+	</div>
+</div>
+{$js}
+<script type="text/javascript">
+function model() {
+    var id;
+    var feedback;
+}
+function submit() {
+	var data = new model();
+	data.feedback = $("#feedback").val();
+	operate(data, "{$url}/check", true);
+}
+</script>

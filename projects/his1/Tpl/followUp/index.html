@@ -1,0 +1,108 @@
+{$css}
+<div id="right">
+    <div class="title">
+    	<span>患者信息</span> — <span>随访信息</span>
+    </div>
+	<div class="">
+		<form action="{$url}/index" method="post">
+        <table class="tb1 tb2 tb80" id="tb_r" >
+<if condition="($userType eq 'p')">
+            <thead>
+			    <tr class="">
+					<th width="">回访时间</th>
+					<th width="">状态</th>
+					<th  width="" class="operate">操作</th>
+				</tr>
+			</thead>
+            <tbody>
+				<volist name="list" id="data">
+					<tr>
+						<td align="center" class="">{$data.create_time}</td>  
+						<td align="center" class="">{$data.status_val}</td>  
+						<td align="center" class="operate">
+							<a href="{$url}/view/{$data.id}" class="" >详细信息</a>
+<if condition="($data.status eq '0')">
+							<a href="javascript:remove({$data.id}, '{$url}/remove')" class="" >删除</a>
+</if>
+						</td>
+					</tr>
+				</volist>
+			</tbody>
+<elseif condition="($userType eq 'd')"/>
+            <thead>
+			    <tr class="">
+					<th width="">病历号</th>
+					<th width="">患者</th>
+					<th width="">诊断</th>
+					<th width="">回访时间</th>
+					<th width="">状态</th>
+					<th  width="" class="operate">操作</th>
+				</tr>
+			</thead>
+            <tbody>
+            	<tr>
+					<td align="center">
+						<input type="text" name="medical_id" value="{$medical_id}" />
+					</td>
+					<td align="center">
+						<input type="text" name="name" value="{$name}" />
+					</td>
+					<td align="center">
+						<select name="diagnosis_id" value="{$diagnosis_id}">
+						    <option value="">全部</option>
+							<volist name="listDiagnosis" id="data2">
+								<option value="{$data2.id}">{$data2.name}</option>
+							</volist>
+						</select>
+					</td>
+					<td align="center">
+						<input type="text" name="create_time" value="{$creat_time}" />
+					</td>
+					<td align="center" class="">
+					    <select name="status" value="{$status}">
+						    <option value="">全部</option>
+						    <option value="1">已阅</option>
+						    <option value="0">未阅</option>
+					    </select>
+					</td>  
+					<td align="center" class="operate">
+						<input type="submit" class="btn2" value="查  询"/>
+					</td>
+				</tr>
+				<volist name="list" id="data">
+					<tr>
+						<td align="center" class="">{$data.medical_id}</td> 
+						<td align="center" class="">{$data.name}</td> 
+						<td align="center" class="">{$data.diagnosis}</td> 
+						<td align="center" class="">{$data.create_time}</td>  
+						<td align="center" class="">{$data.status_val}</td>  
+						<td align="center" class="operate">
+							<a href="{$url}/view/{$data.id}" class="" >详细信息</a>
+<if condition="($data.status eq '0')">
+							<a href="javascript:remove({$data.id}, '{$url}/remove')" class="" >删除</a>
+</if>
+						</td>
+					</tr>
+				</volist>
+			</tbody>
+<else />
+</if>
+			<tfoot>
+				<tr class="">
+					<TD colSpan="20" align="center">{$pageShow}</TD>
+				</tr>
+			</tfoot>
+        </table>
+        </form>
+	</div>
+</div>
+{$js}
+<script type="text/javascript">
+function model() {
+    var id;
+}
+$(function () {
+	$("select[name='diagnosis_id']").val("{$diagnosis_id}");
+	$("select[name='status']").val("{$status}");
+})
+</script>

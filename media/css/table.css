@@ -1,0 +1,114 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body,div,ul,li{margin:0; padding:0;}
+body{font:12px "宋体"; overflow:auto;}
+a:link{color:#00F; text-decoration:none;}
+a:visited {color: #00F; text-decoration:none;}
+a:hover {color: #c00; text-decoration:underline;}
+ul{list-style:none;}
+
+img{ border:none;}
+
+#wrap{ width:100%; min-width:1000px;}
+
+#title {width:100%px; height:38px; }
+#title H2 {  FLOAT: left; COLOR: #fff; FONT-SIZE: 16px; height:30px;  line-height:30px; margin:0px;  padding:0 10px;  padding-top:8px;  }
+
+#title UL#tab { HEIGHT: 38px; FLOAT: left; overflow:hidden;}
+#title UL#tab LI { margin-top:6px; margin-left:4px; width:81px; height:32px; text-align: center; color:#fff; line-height:32px; cursor:pointer; background:url(../images/tab_10.jpg ) no-repeat; float:left; overflow:hidden; }
+#title UL#tab LI A {COLOR: #fff; FONT-SIZE: 12px ; display:block; text-decoration:none;  }
+#title UL#tab LI.current {background:url(../images/tab_08.jpg) no-repeat; height:32px; float:left; overflow:hidden;}
+#title UL#tab LI.current A {color:#0c75d5; FONT-SIZE: 12px; line-height:32px; }
+
+
+
+
+
+
+#content { PADDING:10px  20px 20px 20px;}
+/* ============表单============ */
+TABLE.form {  TEXT-ALIGN: left; padding:0px;}
+TABLE.form tbody{ border-top:2px solid #ccc;}
+table caption,
+table.form thead th {
+text-align:center;
+font-weight:600; 
+border-bottom:2px solid #CCC; 
+font-size:14px; 
+padding:0; 
+/*background:url(icon/16.gif) no-repeat 3px 15px;*/}
+table.form thead th a.tab {margin-right:10px;}
+table.form thead th a.tab.current {font-size:16px; color:#000;}
+table.form tbody td,
+table.form tbody th {padding:8px 10px; border-bottom:solid 1px #ccc; vertical-align:top; border-right:none;}
+table.form tbody th {text-align:right; width:180px; font-weight:600; background-color:#F0F7FB; border-left:none;}
+TABLE.form  tbody td a{  text-decoration:none; color:#0c75d5;}
+TABLE.form  tbody tr:hover{ border-bottom:solid 1px #ccc; color:#0c75d5; padding:8px; background:#dcebf5;}
+
+table.form tfoot td {padding:8px 10px;}
+table.form tfoot td a{  text-decoration:none; color:#0c75d5;}
+table.form tfoot td a:hover{  text-decoration:none; color:#999;}
+
+table.form div.onShow { color:#999;}
+table.form div.onFocus { color:#999;}
+table.form div.onCorrect { color:#9C0;}
+table.form div.onError { color:#F00;}
+table.form span.star { color:#F00; font-family:"宋体"; font-weight:normal;}
+table.form ul.themelist li {float:left; padding:0 5px; width:130px; height:125px;}
+table.form ul.themelist li a img {border:4px #F0F7FB solid; padding:1px; margin-bottom:5px;}
+table.form ul.themelist li.current a img {border:4px #F00 solid;}
+table.form ul.themelist li a:hover img {border:4px #1C77B8 solid;}
+
+
+
+/* ============列表============ */
+TABLE.list { }
+table.list thead th {text-align:left; font-weight:600; border-bottom:2px solid #CCC; font-size:14px; padding:20px 0 10px 25px; }
+
+table.list tbody th {padding:10px 8px ;  text-align:left; background-color:#EEF9FF; border-bottom:1px solid #DFF2FF; border-right:1px solid #fff;}
+table.list tbody td {padding:8px; border-bottom:1px solid #DFF2FF; }
+table.list tbody td  a{ color:#0c75d5; text-decoration:none; }
+table.list tbody td  a:hover{ color:#C30; text-decoration:none; }
+
+table.list tbody tr:hover{padding:8px; background:#dcebf5;}
+
+table.list tfoot td {font-weight:normal;padding:8px;}
+table.list tfoot td a{  text-decoration:none; color:#0c75d5;}
+table.list tfoot td a:hover{  text-decoration:none; color:#999;}
+
+
+table.list div.tips span.notice { color:#999;}
+table.list div.tips span.success { color:#9C0;}
+table.list div.tips span.error { color:#F00;}
+
+
+
+/* ============图片============ */
+TABLE.photo { }
+table.photo thead th {text-align:left; font-weight:600; border-bottom:2px solid #CCC; font-size:14px; padding:20px 0 10px 25px; }
+
+table.photo tbody th {padding:10px 8px ;  text-align:left;}
+table.photo tbody td {padding:8px; border:1px solid #c0c0c0; background:#eaeaea;  display:block; }
+table.photo tbody td  a{ color:#0c75d5; text-decoration:none;   display:block;}
+table.photo tbody td  a:hover{ color:#C30; text-decoration:none; }
+
+table.photo tbody td:hover{padding:8px; background:#ddd; border:1px solid #aaa; cursor:pointer;}
+
+table.photo tfoot td {font-weight:normal;padding:8px;}
+table.photo tfoot td a{  text-decoration:none; color:#0c75d5; }
+table.photo tfoot td a:hover{  text-decoration:none; color:#999; }
+
+
+table tbody tr.OMover td,
+table tbody tr.OMover th{ background-color:#DCEBF5}
+
+
+
+
+/* ============按钮============ */
+button {margin:0 3px; font-size:12px; border:none;}
+button.add { width:61px; height:25px; background:url(../images/but_22.jpg) no-repeat; font-size:12px; color:#fff; line-height:25px;}
+button.reset {width:61px; height:25px; background:url(../images/but_21.jpg) no-repeat; line-height:25px; color:#fff; font-size:12px;}
+button.search { width:25px; height:25px; background:url(../images/but_23.jpg) no-repeat; font-size:12px; color:#fff; line-height:25px; vertical-align:middle; }
+

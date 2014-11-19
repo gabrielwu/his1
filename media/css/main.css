@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px; padding:0px;}
+a{color: #00E; cursor: pointer;}
+a:hover{color: #ff8500;}
+.center { text-algin: center; }
+a{text-decoration: none;}
+li{ list-style:none;}
+
+body{MARGIN: 0px; WIDTH: 100%; FONT-FAMILY: Arial, tahoma, Helvetica, sans-serif; background: #fff repeat-x; HEIGHT: 100%; COLOR: #222; FONT-SIZE: 12px; WORD-BREAK: break-all}
+#top {
+	width:100%; 
+	min-width:1000px; 
+	clear:both; 
+	border-bottom: 3px solid #0c75d5;
+	height: 44px; 
+	height: 44px \9;
+	*height: 44px; 
+	font-size: 16px; 
+	padding: 5px 0px;
+	background: #f3f3f3; 
+}
+#top div {float: right; margin: 20px 50px;}
+#top span {float: right; margin: 0 5px; }
+#top a {float: right; margin: 0 5px;}
+#top p{padding: 8px 0; font-size: 24px; font-weight: bold; text-align: center;letter-spacing: 2px;}
+#top .magess {width:100%; height:40px; color:#0b4980;  line-height:40px;}
+#top .magess td{ font-size:14px; padding-left:10px; font-weight:bold; vertical-align:middle; }
+#top .magess a{ font-size:14px; padding-left:0px; color:#0b4980;  font-weight:bold; vertical-align:middle; }
+#top .magess img{ vertical-align:middle; padding-right:5px;}
+
+
+#left{ height:1000px; color: #1570A6; border-right: 1px solid #0c75d5; padding: 12px 0}
+#left div{width: 100%;}
+#left h3{cursor: pointer; font-size: 18px; text-align: center; line-height: 2; letter-spacing: 2px; font-weight: normal;color: #1570A6;}
+#left p{display: block; text-align: center; margin: 0 0 12px 0;}
+#left a{display: block; font-size: 14px; color: #7b7c7d; margin:2px 0;}
+#left a:hover{text-decoration: underline;}
+
+
+#p_bottom {text-align: center; padding: 10px 0; border-top: 1px solid #0c75d5;}
+#p_bottom a{margin: 0 0 0 10px;}
+
+
+

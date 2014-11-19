@@ -1,0 +1,93 @@
+{$css}
+<div id="right">
+    <div class="title">
+    	<span>账户管理</span> — <span>管理员</span> 
+    </div>
+    <span>初始密码及重置密码均为{$passwordInitial}</span>
+	<div class="">
+        <table class="tb1 tb2" id="tb_r" >
+            <thead>
+			    <tr class="">
+					<th>用户名</th>
+					<th>科室</th>
+					<th class="operate">操作</th>
+				</tr>
+			</thead>
+            <tbody>
+				<tr>
+					<td align="center">
+						<input class="" type="text" id="username" name="username" value="" />
+					</td>
+					<td align="center">
+						<select name="department_id" id="department_id" class="_select" title={$adminType}>
+							<option value="">全部</option>
+							<option value="0">系统管理员</option>
+							<volist name="listDepartment" id="data1">
+								<option value="{$data1.id}">{$data1.name}</option>
+							</volist>
+						</select>
+					</td>
+					<td align="center" class="operate">
+						<a href="javascript:query('{$url}/index')" class="" >查询</a>
+						<a href="javascript:add('{$url}/add')" class=""  >添加</a>
+					</td>
+				</tr>
+				<volist name="list" id="data">
+					<tr>
+						<td align="center" class="">
+						    <input id="username_{$data.id}" type="text" value="{$data.username}" />
+						</td>  
+						<td align="center" class="">
+							<select id="department_id_{$data.id}" title="{$data.department_id}" class="_select">
+								<option value="0">系统管理员</option>
+								<volist name="listDepartment" id="data2">
+									<option value="{$data2.id}">{$data2.name}</option>
+								</volist>
+							</select>							
+						</td>  
+						<td align="center" class="operate">
+							<a href="javascript:edit({$data.id}, '{$url}/edit')" class="" >编辑</a>
+							<a href="javascript:resetPassword({$data.id}, '{$url}/resetPassword')" class="" >密码重置</a>
+							<a href="javascript:remove({$data.id}, '{$url}/remove')" class="" >删除</a>
+						</td>
+					</tr>
+				</volist>
+			</tbody>
+        </table>
+	</div>
+</div>
+{$js}
+<script type="text/javascript">
+function model() {
+    var id;
+    var username;
+    var department_id;
+}
+function query(url) {
+	var data = new model();
+	data.username      = $("#username").val();
+	data.department_id = $("#department_id").val();
+	window.location.href = url + "/" + data.department_id + "/" + data.username;
+}
+function add(url) {
+	var data = new model();
+	data.username      = $("#username").val();
+	data.department_id = $("#department_id").val();
+	var canSubmit = true;
+	canSubmit = isNonEmpty(data.username, "用户名", $("#username"));
+	if (canSubmit) {
+		operate(data, url);
+	}
+}
+function edit(id, url) {
+	var data = new model();
+	data.id = id;
+	data.username      = $("#username_" + id).val();
+	data.department_id = $("#department_id_" + id).val();
+	var canSubmit = true;
+	canSubmit = isNonEmpty(data.username, "用户名", $("#username_" + id));
+	if (canSubmit) {
+		operate(data, url);
+	}
+}
+</script>

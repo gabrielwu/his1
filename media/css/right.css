@@ -1,0 +1,128 @@
+﻿@charset "utf-8";
+iframe {width: 100%; height: 100%;}
+.right {text-align: right;}
+#right {padding: 10px 20px;}
+#right .title {margin: 0 0 10px; padding: 10px 90px 4px 54px; height: 26px;  color: #ff8500; font-size: 18px; border-bottom: 1px solid #0c75d5;}
+#right .title span{font-size: 16px;}
+#right .title a{height: 27px; display: inline-block; font-size: 16px; color: #ff8500;}
+#right .title a:hover{color: #00E;}
+#right .title a{
+    margin: 0px 0px; 
+    padding: 0px 5px 0; 
+    height: 24px; 
+    display: inline-block; 
+    font-size: 16px; 
+    color: #ff8500;
+}
+#right .title a.a-tab{
+    margin: 0px 6px; 
+    padding: 5px 10px 0; 
+    float:right; 
+}
+#right .title a.current{
+	color: #1570A6; 
+	border: 1px solid #0c75d5; 
+	border-bottom: 1px solid #fff;
+	background: #fff;
+}
+.content .tab h3 {border-bottom: 1px solid #0c75d5; font-size: 18px; padding: 0 0 4px 20px; margin: 0 0 10px 0;}
+.content3 {padding: 0px 40px 0px; margin: 0 45px; }
+.content3 h3{text-align: center; font-size: 16px; margin: 10px 0 14px;}
+.content3 h4{text-align: center; font-weight: normal;}
+.content3 span{margin: 4px 20px; font-size: 12px;}
+.content3 .new_content{margin: 10px 20px; font-size: 14px;}
+
+.content2 {padding: 0px 40px 0px; margin: 0 auto; }
+.content2 .input{min-width: 100px; *width: 200px; }
+.content2 .inputL{width: 400px; }
+.content2 .common {margin: 6px 0;}
+.content2 .common span { font-size:16px;}
+.content2 .common td {padding: 0 10px 0 0;}
+
+.content {padding: 10px 20px; }
+.content table {}
+.content table tr, .content table tr td { height: 36px; font-size: 16px;}
+.content table tr td {}
+.content table {margin: 0 auto 6px auto;}
+.content span { display: inline-block; text-align: right; font-size: 16px;}
+.inputlock, .inputEdit {
+	margin: 0 2px;
+    border: 1px solid #ccc;
+    line-height: 24px;
+    height: 24px;
+    vertical-align: top;
+    font-size: 12px;
+    color: #222;
+    box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,0.075);
+    width: 150px;
+}
+textarea.inputlock, textarea.inputEdit {width: 398px; height: 80px; margin: 6px 2px;}
+.tab img{width: 398px;}
+.inputlock {background:#eee;}
+.content .inputL {width: 300px;}
+
+.content .tb_invisible .inputL {width: 210px;}
+.content .tb_invisible  span { width: 120px; display: inline-block; text-align: right; font-size: 16px;}
+.content .tb_invisible  a#tip { width: 320px;}
+.content .tb_invisible  td { padding-right: 10px;}
+
+.content .edit {text-align: center; margin-top:10px;}
+#tip, .tip {
+    color: #f00;
+    text-shadow: 1px 1px 1px #C9B8B8;
+    font-size: 14px;
+}
+.btnLock {border:0;background: #7b7c7d; box-shadow: inset 0 1px 0 #7b7c7d;}
+.btnLock:hover {background: #7b7c7d;}
+
+.studentPhoto {text-align: center;}
+
+
+.search {padding: 0px 0px 20px; }
+.search table tr, .search table tr td { height: 30px;}
+.search table tr td {padding: 2px 0;}
+.search table {margin: 0 auto 6px auto;}
+.search span { width: 56px; display: inline-block; text-align: right; font-size: 14px;}
+.search .inputlock, .search .inputEdit {
+	margin: 0 4px;
+    border: 1px solid #ccc;
+    line-height: 24px;
+    height: 24px;
+    vertical-align: top;
+    font-size: 12px;
+    color: #222;
+    box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,0.075);
+    width: 106px;
+}
+.search .inputL {width: 300px;}
+.search #updatepassword .inputL {width: 210px;}
+.search #updatepassword  span { width: 120px; display: inline-block; text-align: right; font-size: 16px;}
+.search #updatepassword  a#tip { width: 320px;}
+
+.search .edit {text-align: center;}
+
+.search2 {padding: 0 0 20px;}
+.search2 span { width: 50px;}
+.center {text-align: center;}
+.right {text-align: right;}
+.left {text-align: left;}
+table {border-collapse:collapse;}
+.tb1 tbody tr td {height: 20px; padding: 2px 8px; border: 1px solid #aaa;}
+.tb1 tbody tr:nth-child(odd) { background-color: #E2E4FF; }
+.tb1 tbody tr:nth-child(even) { background-color: white; }
+.tb2 { border-collapse:collapse; width: 49%; margin: auto;}
+.tb2 tbody tr td {padding: 6px 4px;}
+.tb2 tbody tr:hover{background: #f3f3f3;}
+
+.tb3 {margin: 0 auto; width: 90%;}
+.tb3 *{font-size: 14px;}
+.tb3 tr, .tb3 tr td, .tb3 tr th{height: 26px;}
+.tb3 tbody tr td a:hover{color:#ff8500; }
+.tb80 {width: 80%;}
+.tb_area td {width: 160px;}
+
+.tb100 {   width: 100%; margin: auto;}
+.wrap{background: #fff; padding: 10px 4px;}
+.inputS {width: 100px;}
+.table4 tr td {width: 150px; text-align: left;}
+.table4 tr td textarea {width: 100%;}
